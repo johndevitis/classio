@@ -2,6 +2,10 @@ function obj2json(self,pth,name)
 %% save2json
 % 
 % wrapper function for jsonlab -> save/load json files
+%
+% inputs: 
+%   pth -> path to file
+%   name -> file name (.json assumed)
 % 
 % * defaults to use classname as filename - override with optional 'name' 
 % input

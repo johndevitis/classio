@@ -3,6 +3,9 @@ function json2obj(self,fname)
 % 
 % wrapper function for jsonlab -> save/load json files
 % 
+% inputs:
+%   fname -> full path/name to file
+% 
 % author: john devitis
 % create date: 24-Oct-2016 15:22:29
     fprintf('Loading object... ')
