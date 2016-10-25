@@ -8,8 +8,8 @@ Currently only JSON is supported.
 
 *Refer to `/libs/jsonlab/loadjson` and `/libs/jsonlab/savejson` for details regarding the encoding and decoding of specific data types (e.g. arrays and complex numbers) as well as available formatting options.*
 
-# Example
-A simple read/write example can be found in `examples/`.
+# Read-Write Example
+A simple read/write example can be found in `examples/read_write_example/`.
 
 The function `read_write_example` creates an instance of the `read_write_example_class` and uses the classio methods `obj2json` and `json2obj` to serialize and de-serialize the example object.
 
