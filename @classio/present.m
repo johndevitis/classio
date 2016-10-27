@@ -16,9 +16,8 @@ function n = present(base,target)
 %   base.c = classy();
 %   base.f1 = funky();
 %   base.f2 = funky();
-%   if classio.present(base,'funky')
-%       fprintf('found %i times\n',n)
-%   end
+%   n = classio.present(base,'funky');
+%   if n; fprintf('found %i times\n',n); end
 %
 % author: john devitis
 % create date: 27-Oct-2016 13:58:07	
