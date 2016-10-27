@@ -32,6 +32,7 @@ classdef classio < handle
 
 %% static methods
 	methods (Static)
+        n = present(base,target)
 	end
 
 %% protected methods
